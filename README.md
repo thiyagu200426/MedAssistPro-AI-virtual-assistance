@@ -35,3 +35,74 @@ MEDBOT is an AI-powered medical assistant designed to help users analyze symptom
 ```bash
 git clone https://github.com/yourusername/medbot.git
 cd medbot
+
+Create a virtual environment:
+
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Apply migrations:
+
+python manage.py migrate
+
+
+Run the development server:
+
+python manage.py runserver
+
+
+Start the React frontend (in a separate terminal):
+
+cd frontend
+npm install
+npm start
+
+Usage
+
+Open your browser at http://127.0.0.1:8000/
+
+Register as a user
+
+Enter your symptoms via text or voice
+
+Get disease predictions, medication suggestions, and hospital recommendations
+
+Contributing
+
+Fork the repository
+
+Create a new branch: git checkout -b feature-name
+
+Commit your changes: git commit -m "Add feature"
+
+Push to the branch: git push origin feature-name
+
+Create a pull request
+
+License
+
+This project is licensed under the MIT License. See the LICENSE
+ file for details.
+
+Author
+
+Thiyagarajan V
+
+
+
+
+
+
+
+---
+
+If you want, I can also **make a visually enhanced version with screenshots, badges, and a Table of Contents** that looks professional for GitHub portfolios.  
+
+Do you want me to do that next?
+
